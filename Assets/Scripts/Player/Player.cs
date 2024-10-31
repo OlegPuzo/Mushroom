@@ -86,14 +86,13 @@ public class Player : MonoBehaviour
         _playerAnimation.OnUsedAnimation(PlayerAnimation.NameWave);
     }
 
-
     public void UseAction()
     {
         if (_isDead == false)
         {
            _playerMovement.Move(_turnSpeed, _speed, _sprintSpeed, _playerJump.isGround);
            _playerJump.TryUseJump(_keyJump, _characterController, _gravity, _jumpForce);
-            _playerTracker.UseRayDown(_offsetRay, _lenghtRay);
+           _playerTracker.UseRayDown(_offsetRay, _lenghtRay);
         }
 
     }
@@ -107,22 +106,20 @@ public class Player : MonoBehaviour
     public void OnTouchedHurt()
     {
         _health--;
+
         if (_health > 0)
         {
             ChangedHealth?.Invoke(_health);
-            _isDead = true;
-            transform.position = _startPos;
-            _isDead = false;
             _healthSlider.value = _health;
-
+            _characterController.enabled = false;
+            transform.position = _startPos;
+            _characterController.enabled = true;
         }
         else
         {
             _healthSlider.value = _health;
             _playerAnimation.OnUsedAnimation(PlayerAnimation.NameDying);
             _isDead = true;
-
-            Invoke(nameof(CreateActionDeath), 2f);
         }
     }
 
@@ -131,4 +128,9 @@ public class Player : MonoBehaviour
         Winned?.Invoke();
     }
     private void CreateActionDeath() => Deathed?.Invoke();
+
+    private void oooo()
+    {
+        transform.position = _startPos;
+    }
 }

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pro10\\Desktop\\Unity\\Mushroom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1209E829-7CA5-211C-4999-9C743FC8AD88}|Assembly-CSharp.csproj|c:\\users\\pro10\\desktop\\unity\\mushroom\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1209E829-7CA5-211C-4999-9C743FC8AD88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1209E829-7CA5-211C-4999-9C743FC8AD88}|Assembly-CSharp.csproj|c:\\users\\pro10\\desktop\\unity\\mushroom\\assets\\scripts\\player\\playertracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1209E829-7CA5-211C-4999-9C743FC8AD88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playertracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1209E829-7CA5-211C-4999-9C743FC8AD88}|Assembly-CSharp.csproj|c:\\users\\pro10\\desktop\\unity\\mushroom\\assets\\scripts\\player\\playerjump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1209E829-7CA5-211C-4999-9C743FC8AD88}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerjump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerTracker.cs",
+              "DocumentMoniker": "C:\\Users\\pro10\\Desktop\\Unity\\Mushroom\\Assets\\Scripts\\Player\\PlayerTracker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerTracker.cs",
+              "ToolTip": "C:\\Users\\pro10\\Desktop\\Unity\\Mushroom\\Assets\\Scripts\\Player\\PlayerTracker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerTracker.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T14:25:37.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerJump.cs",
+              "DocumentMoniker": "C:\\Users\\pro10\\Desktop\\Unity\\Mushroom\\Assets\\Scripts\\Player\\PlayerJump.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerJump.cs",
+              "ToolTip": "C:\\Users\\pro10\\Desktop\\Unity\\Mushroom\\Assets\\Scripts\\Player\\PlayerJump.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerJump.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T14:23:06.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\pro10\\Desktop\\Unity\\Mushroom\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
+              "ToolTip": "C:\\Users\\pro10\\Desktop\\Unity\\Mushroom\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAA/wHEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T14:20:17.699Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

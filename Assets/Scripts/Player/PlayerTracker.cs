@@ -27,7 +27,12 @@ public class PlayerTracker : MonoBehaviour
                 // transform.SetParent(hit.collider.gameObject.transform);
                 Debug.Log("Касание платформы");
             }
+
             TouchedGround?.Invoke(true);
+        }
+        else
+        {
+            TouchedGround?.Invoke(false);
         }
 
         Debug.DrawRay(origin, Vector3.down * rayDownLenght, Color.red);
